@@ -1,13 +1,12 @@
-package Servicio;
+package Servicios;
 
 import paciente.Usuario;
-
 import java.util.HashMap;
 import java.util.Map;
 
 public class GestionUsuarios {
-    private Map<String, Usuario> usuarios;
-
+    private final Map<String, Usuario> usuarios;
+    
     public GestionUsuarios() {
         this.usuarios = new HashMap<>();
     }
@@ -33,5 +32,8 @@ public class GestionUsuarios {
 
     public Map<String, Usuario> getUsuarios() {
         return usuarios;
+    }
+
+    public void agregarUsuario(Usuario usuario) {
     }
 }

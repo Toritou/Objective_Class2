@@ -12,15 +12,15 @@ public class FichaMedica {
         this.historiales = new ArrayList<>();
     }
 
-    public void agregarHistorial(String historial) {
-        historiales.add(historial);
-    }
-
     public Paciente getPaciente() {
         return paciente;
     }
 
     public List<String> getHistoriales() {
         return historiales;
+    }
+
+    public void agregarHistorial(String historial) {
+        historiales.add(historial);
     }
 }
