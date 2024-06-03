@@ -1,6 +1,6 @@
 package paciente;
 
-public class Pacientes {
+public class Paciente {
     private String nombre;
     private String rut;
     private String tipoSangre;
@@ -8,7 +8,7 @@ public class Pacientes {
     private String domicilio;
     private String fichaMedica;
 
-    public Pacientes(String nombre, String rut, String tipoSangre, String estadoCivil, String domicilio, String fichaMedica) {
+    public Paciente(String nombre, String rut, String tipoSangre, String estadoCivil, String domicilio, String fichaMedica) {
         this.nombre = nombre;
         this.rut = rut;
         this.tipoSangre = tipoSangre;
